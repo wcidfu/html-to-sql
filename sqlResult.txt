@@ -1,0 +1,36 @@
+-- Тест 1
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+
+-- Конец теста 1
+
+-- Тест 2
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+
+-- Конец теста 2
+
+-- Тест 3
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
+
+-- Конец теста 3
+
