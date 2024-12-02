@@ -1,36 +1,39 @@
--- Тест 1
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
+-- Test 1
+INSERT INTO TEST (question) VALUES ('wewe');
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
 
--- Конец теста 1
 
--- Тест 2
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
 
--- Конец теста 2
+-- Test 2
+INSERT INTO TEST (question) VALUES ('wewe');
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
 
--- Тест 3
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', false);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
-INSERT INTO answers (question, answer, is_correct) VALUES ('wewe', '1', true);
 
--- Конец теста 3
+
+-- Test 3
+INSERT INTO TEST (question) VALUES ('wewe');
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', false);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+INSERT INTO ANSWER_OPTIONS (test_id, answer, is_correct) VALUES (currval('test_id_seq'), '1', true);
+
+
 
